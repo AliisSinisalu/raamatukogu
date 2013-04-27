@@ -4,8 +4,7 @@
   .form-inputs
     = f.input :autor
     = f.input :pealkiri
-    = f.input :zanr
-    = f.association :user
+    = "kuulub kasutajale #{current_user.email}"
 
   .form-actions
     = f.button :submit

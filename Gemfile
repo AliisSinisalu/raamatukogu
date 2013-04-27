@@ -24,3 +24,4 @@ gem 'haml'
 gem "haml-rails"
 
 gem "annotate"
+gem "devise"
